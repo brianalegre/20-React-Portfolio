@@ -1,6 +1,10 @@
 import './App.css';
 import React, { useState } from "react";
 import AboutMe from "./components/AboutMe";
+import Project from "./components/Project";
+
+// IMPORT LIST OF PROJECTS
+import projects from './projects'
 
 function App() {
   // return (
@@ -11,6 +15,7 @@ function App() {
   return (
     <div>
       <AboutMe />
+      <Project projects={projects} />
     </div>
   );
 
