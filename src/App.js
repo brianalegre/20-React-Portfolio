@@ -3,6 +3,8 @@ import React, { useState } from "react";
 import Header from "./components/Header"
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
+import Contact from "./components/Contact";
+
 
 // IMPORT LIST OF PROJECTS
 import projects from './projects'
@@ -18,6 +20,7 @@ function App() {
       <Header />
       <AboutMe />
       <Project projects={projects} />
+      <Contact />
     </div>
   );
 

@@ -32,7 +32,6 @@ function Header() {
                 <ul>
                     {navbar.map((navItems) => (
                         <li>
-                            {/* {`${nav.projectName} ${project.deployed} ${project.repo}`} */}
                             <a href={navItems.navLink}> {navItems.navName} </a>
                         </li>
                     ))}
