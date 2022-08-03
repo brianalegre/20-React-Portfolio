@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useState } from "react";
+import Header from "./components/Header"
 import AboutMe from "./components/AboutMe";
 import Project from "./components/Project";
 
@@ -14,6 +15,7 @@ function App() {
   // )
   return (
     <div>
+      <Header />
       <AboutMe />
       <Project projects={projects} />
     </div>
