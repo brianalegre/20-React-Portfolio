@@ -9,7 +9,7 @@ import Contact from "./components/Contact";
 
 
 // IMPORT LIST OF PROJECTS
-import projects from './projects'
+// import projects from './projects'
 
 function App() {
   // return (
@@ -23,7 +23,8 @@ function App() {
       <AboutMe />
       <Skills />
       <Tools />
-      <Project projects={projects} />
+      {/* <Project projects={projects} /> */}
+      <Project />
       <Contact />
     </div>
   );
