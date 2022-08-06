@@ -28,6 +28,8 @@ function Header() {
     return (
         <header>
             <h1> Brian Alegre </h1>
+            {/* IMG LOGO */}
+            <img src="/assets/logo/BAlogo/Brian Alegre-logos.jpeg" alt="Brian Alegre Logo" />
             <nav>
                 <ul>
                     {navbar.map((navItems) => (
