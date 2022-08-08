@@ -1,7 +1,3 @@
-// Use Props for Projects?
-// Use .map to call the Project Component multiple times
-// https://reactjs.org/docs/components-and-props.html
-
 import React from 'react';
 
 const project = [
@@ -49,36 +45,9 @@ const project = [
     },
 ]
 
-// export default function Projects {
-//     return (
-//         <div>
-//             <ul>
-//                 {project.map((projectItem) => (
-//                     <li>
-//                         {`${projectItem} ${projectItem.deployed} ${project.repo}`}
-//                     </li>
-//                 ))}
-//             </ul>
-//         </div>
-//     );
-// }
 
 function Projects() {
     return (
-        // <section className='container bg-red-300 mx-auto'>
-        //     <div className='text-center'>
-        //         <h1>Projects</h1>
-        //         <p>Some projects I've worked on</p>
-        //         <br></br>
-        //     </div>
-        //     <div className='grid grid-cols-3 gap-4'>
-        //         {project.map((projectItem) => (
-        //             <div className='mx-auto'>
-        //                 <h3>{projectItem.projectName}</h3>
-        //             </div>
-        //         ))}
-        //     </div>
-        // </section >
         <section>
             <div class="grid grid-cols-3 gap-4">
                 {project.map((projectItem) => (
@@ -107,3 +76,41 @@ function Projects() {
 }
 
 export default Projects;
+
+
+// UNUSED CODE
+
+    // <section className='container bg-red-300 mx-auto'>
+    //     <div className='text-center'>
+    //         <h1>Projects</h1>
+    //         <p>Some projects I've worked on</p>
+    //         <br></br>
+    //     </div>
+    //     <div className='grid grid-cols-3 gap-4'>
+    //         {project.map((projectItem) => (
+    //             <div className='mx-auto'>
+    //                 <h3>{projectItem.projectName}</h3>
+    //             </div>
+    //         ))}
+    //     </div>
+    // </section >
+
+            
+    // export default function Projects {
+    //     return (
+    //         <div>
+    //             <ul>
+    //                 {project.map((projectItem) => (
+    //                     <li>
+    //                         {`${projectItem} ${projectItem.deployed} ${project.repo}`}
+    //                     </li>
+    //                 ))}
+    //             </ul>
+    //         </div>
+    //     );
+    // }
+
+// NOTES
+    // Use Props for Projects?
+    // Use .map to call the Project Component multiple times
+    // https://reactjs.org/docs/components-and-props.html
