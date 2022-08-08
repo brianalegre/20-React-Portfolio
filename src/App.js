@@ -19,7 +19,7 @@ function App() {
   //   </h1>
   // )
   return (
-    <div className='bg-white'>
+    <div className='bg-gray-300'>
       <Logo />
       {/* <Header />
       <AboutMe />
