@@ -6,6 +6,7 @@ import Skills from "./components/Skills"
 import Tools from "./components/Tools"
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Logo from "./components/Logo"
 
 
 // IMPORT LIST OF PROJECTS
@@ -19,10 +20,11 @@ function App() {
   // )
   return (
     <div className='bg-white'>
-      <Header />
+      <Logo />
+      {/* <Header />
       <AboutMe />
       <Skills />
-      <Tools />
+      <Tools /> */}
       {/* <Project projects={projects} /> */}
       <Project />
       <Contact />
