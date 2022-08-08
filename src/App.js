@@ -18,7 +18,7 @@ function App() {
   //   </h1>
   // )
   return (
-    <div>
+    <div className='bg-white'>
       <Header />
       <AboutMe />
       <Skills />

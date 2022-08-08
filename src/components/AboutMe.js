@@ -9,7 +9,7 @@ imagine, I can bring it to life, and that iteslf if beautiful`
 function AboutMe() {
 
     return (
-        <div className="text-3xl font-bold underline text-green-300">
+        <div className="text-3xl font-bold">
             <h2>{message}</h2>
             <p>
                 {intro}
