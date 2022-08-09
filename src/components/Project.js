@@ -46,19 +46,19 @@ const project = [
 ]
 
 const projectMap = project.map((projectItem, i) => (
-    <div className="rounded-lg shadow-lg bg-white max-w-sm mx-auto">
+    <div key={'project_' +i}className="rounded-lg shadow-lg bg-white max-w-sm mx-auto">
         <a href="#!">
-            <img className="rounded-t-lg" key={'projectImage_'+ i} src={projectItem.projectImage} alt="" />
+            <img className="rounded-t-lg" src={projectItem.projectImage} alt="" />
         </a>
         <div className="p-6">
-            <h5 className="text-gray-900 text-xl font-medium mb-2" key={'projectName_'+ i} >{projectItem.projectName}</h5>
-            <p className="text-gray-700 text-base mb-4" key={'projectDescription_'+ i}>
+            <h5 className="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
+            <p className="text-gray-700 text-base mb-4">
                 {projectItem.projectDescription}
             </p>
             <div className='flex justify-around'>
-                <a key={'projectRepo_'+ i} href={projectItem.repo} target="_blank" rel='noreferrer'><i
+                <a href={projectItem.repo} target="_blank" rel='noreferrer'><i
                     className="fa fa-github hvr-icon"> GitHub </i></a>
-                <a key={'projectDeployed_'+ i} href={projectItem.deployed} target="_blank" rel='noreferrer'><i
+                <a href={projectItem.deployed} target="_blank" rel='noreferrer'><i
                     className="fa fa-share-square-o"> Live </i></a>
             </div>
         </div>
