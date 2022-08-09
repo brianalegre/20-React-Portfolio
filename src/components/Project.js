@@ -17,8 +17,8 @@ const project = [
     },
     {
         projectName: "Tech Blog",
-        projectImage: "TBD",
-        projectDescription: "",
+        projectImage: ".././assets/projectImages/techBlog.png",
+        projectDescription: "Tech Blog is a full-stack application, where uesr can post their thoughts, and comment on other users' posts",
         deployed: "https://alegre-techblog.herokuapp.com/",
         repo: "https://github.com/brianalegre/14-MVC-Techblog",
     },
@@ -49,15 +49,15 @@ const project = [
 function Projects() {
     return (
         <section>
-            <div class="grid grid-cols-3 gap-4">
+            <div className="grid grid-cols-3 gap-4">
                 {project.map((projectItem) => (
-                    <div class="rounded-lg shadow-lg bg-white max-w-sm">
+                    <div className="rounded-lg shadow-lg bg-white max-w-sm">
                         <a href="#!">
-                            <img class="rounded-t-lg" src={projectItem.projectImage} alt="" />
+                            <img className="rounded-t-lg" src={projectItem.projectImage} alt="" />
                         </a>
-                        <div class="p-6">
-                            <h5 class="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
-                            <p class="text-gray-700 text-base mb-4">
+                        <div className="p-6">
+                            <h5 className="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
+                            <p className="text-gray-700 text-base mb-4">
                                 {projectItem.projectDescription}
                             </p>
                             <div className='flex justify-around'>
