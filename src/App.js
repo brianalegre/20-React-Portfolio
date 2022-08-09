@@ -21,10 +21,10 @@ function App() {
   return (
     <div className='bg-gray-300'>
       {/* <Logo /> */}
-      {/* <Header />
+      {/* <Header /> */}
       <AboutMe />
-      <Skills />
-      <Tools /> */}
+      {/* <Skills /> */}
+      {/* <Tools /> */}
       <Project />
       <Contact />
     </div>

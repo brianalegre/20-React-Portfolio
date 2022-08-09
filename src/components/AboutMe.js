@@ -6,6 +6,8 @@ also how to improve it, all while learning.
 I also love how Web Development is a great creative outlet for me. If its something I can
 imagine, I can bring it to life, and that iteslf if beautiful`
 
+const selfie = '.././assets/logo/selfie.jpg'
+
 function AboutMe() {
 
     return (
