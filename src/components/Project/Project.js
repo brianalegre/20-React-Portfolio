@@ -68,7 +68,7 @@ const projectMap = project.map((projectItem, i) => (
 function Projects() {
     return (
         <section>
-             <div className='text-center font-bold text-xl'>
+             <div className='text-center font-extrabold text-3xl'>
                 <h1 className='text-orange-500'>Projects</h1>
                 <br></br>
             </div>

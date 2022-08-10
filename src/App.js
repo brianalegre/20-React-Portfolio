@@ -5,7 +5,7 @@ import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills"
 import Tools from "./components/Skills/Tools"
 import Project from "./components/Project/Project";
-// import Contact from "./components/Contact/Contact";
+import Contact from "./components/Contact/Contact";
 import Logo from "./components/Logo/Logo"
 import Footer from "./components/Footer/Footer"
 
@@ -26,7 +26,7 @@ function App() {
       <AboutMe />
       {/* <Skills /> */}
       <Project />
-      {/* <Contact /> */}
+      <Contact />
       <Footer />
     </div>
   );
