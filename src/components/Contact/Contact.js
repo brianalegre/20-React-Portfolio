@@ -1,4 +1,6 @@
 import React from 'react';
+// IMPORT REACT-HOOK-FORM LIBRARY
+import { useForm } from "react-hook-form";
 
 
 
@@ -57,3 +59,21 @@ function Contact() {
 
 export default Contact;
 
+/*
+export default function App() {
+    const { register, handleSubmit, watch, errors } = useForm();
+    const onSubmit = data => console.log(data);
+    return (
+      <div className="App">
+        <form onSubmit={handleSubmit(onSubmit)}>
+          <input name="requiredField" ref={register({ required: true })} />
+          <br />
+          {errors.requiredField && <span>This field is required</span>}
+          <br />
+          <input type="submit" />
+        </form>
+      </div>
+    );
+  }
+
+*/
