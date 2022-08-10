@@ -46,9 +46,9 @@ const project = [
 ]
 
 const projectMap = project.map((projectItem, i) => (
-    <div key={'project_' +i}className="rounded-lg shadow-lg bg-white max-w-sm mx-auto">
+    <div key={'project_' +i}className="rounded-3xl shadow-lg bg-white max-w-sm mx-auto">
         <a href="#!">
-            <img className="rounded-t-lg" src={projectItem.projectImage} alt="" />
+            <img className="rounded-t-3xl" src={projectItem.projectImage} alt="" />
         </a>
         <div className="p-6">
             <h5 className="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
