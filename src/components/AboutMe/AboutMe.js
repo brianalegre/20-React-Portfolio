@@ -11,7 +11,7 @@ const selfie = '.././assets/logo/selfie.jpg'
 function AboutMe() {
 
     return (
-        <div className="text-3xl font-bold">
+        <div className="text-3xl text-stone-200">
             <h2>{message}</h2>
             <p>
                 {intro}

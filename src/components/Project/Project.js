@@ -67,7 +67,11 @@ const projectMap = project.map((projectItem, i) => (
 
 function Projects() {
     return (
-        <section className='border-solid'>
+        <section>
+             <div className='text-center font-bold text-xl'>
+                <h1 className='text-orange-500'>Projects</h1>
+                <br></br>
+            </div>
             <div className="grid gap-4 p-5
                 sm:grid-cols-1
                 md:grid-cols-2
