@@ -1,0 +1,48 @@
+import React from 'react';
+
+const footer = [
+    {
+        footerName: "GitHub",
+        footerLink: "https://github.com/brianalegre",
+        footerIcon: "fa fa-github"
+    },
+    {
+        footerName: "LinkedIn",
+        footerLink: "https://www.linkedin.com/in/brian-alegre/",
+        footerIcon: "fa fa-linkedin"
+
+    },
+    {
+        footerName: "Email",
+        footerLink: "mailto: brialegre@yahoo.com",
+        footerIcon: "fa fa-envelope"
+
+    },
+    {
+        footerName: "Resume",
+        footerLink: "https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true",
+        footerIcon: "fa fa-file-text"
+
+    },
+
+]
+
+const footerMap = footer.map((footerItems, i) => (
+    <li key={'footer_' + i} className='px-5'>
+        <a href={footerItems.footerLink} target="_blank" rel='noreferrer'>
+            <i className={footerItems.footerIcon}></i>
+        </a>
+    </li >
+));
+
+function Footer() {
+    return (
+        <footer>
+            <ul className='flex justify-center'>
+                {footerMap}
+            </ul>
+        </footer>
+    );
+}
+
+export default Footer;
