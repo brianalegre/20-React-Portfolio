@@ -1,6 +1,5 @@
 import React from 'react';
 
-const message = `Hi, I'm Brian Alegre!`;
 const intro = `I love the fact that I can break things with Web Development, figuring out how it works, and
 also how to improve it, all while learning.
 I also love how Web Development is a great creative outlet for me. If its something I can

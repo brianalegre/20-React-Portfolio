@@ -10,17 +10,17 @@ const navbar = [
         navLink: "#skills"
     },
     {
-        navName: "Tools",
-        navLink: "#tools"
-    },
-    {
-        navName: "Apps",
-        navLink: "#apps"
+        navName: "Portfolio",
+        navLink: "#portolio"
     },
     {
         navName: "Contact",
         navLink: "#contact"
     },
+    {
+        navName: "Resume",
+        navLink: "TBD"
+    }
 ]
 
 
@@ -56,8 +56,8 @@ function Header() {
                 </div>
                 <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
                     <ul className="flex flex-col lg:flex-row list-none ml-auto">
-                        {navbar.map((navItems) => (
-                            <li className="nav-item">
+                        {navbar.map((navItems, i) => (
+                            <li key={"nav_" + i} className="nav-item">
                                 <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href={navItems.navLink}>
                                     {navItems.navName}
                                 </a>

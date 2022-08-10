@@ -12,7 +12,7 @@ import Logo from "./components/Logo/Logo"
 // IMPORT LIST OF PROJECTS
 // import projects from './projects'
 
-function App() { 
+function App() {
   // return (
   //   <h1 className="text-3xl font-bold underline text-green-300">
   //     Hello world!
@@ -21,7 +21,7 @@ function App() {
   return (
     <div className='bg-stone-900'>
       {/* <Logo /> */}
-      {/* <Header /> */}
+      <Header />
       <AboutMe />
       {/* <Skills /> */}
       {/* <Tools /> */}
