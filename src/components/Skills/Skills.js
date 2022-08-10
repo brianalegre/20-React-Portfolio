@@ -1,62 +1,63 @@
 import React from 'react';
+import Marquee from "react-fast-marquee";
 
-const skills = [
-    {
-        skillName: "HTML5",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "CSS",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "JavaScript",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "Node.js",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "Express",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "jQuery",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "NoSQL",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "React.js",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "MySQL",
-        skillPicture: "TBD"
-    },
-    {
-        skillName: "tailwindcss",
-        skillPicture: "TBD"
-    },
+import './Skills.css'
+// import { skillsImage } from './skillsImage'
+
+
+const skillsData = [
+    'HTML',
+    'CSS',
+    'Figma',
+    'Javascript',
+    'React',
+    'Node JS',
 
 ]
 
 function Skills() {
-    return (
-        <section>
-            <h1>Skills</h1>
-            <p>Below are the skills I have learned thus far</p>
+    // return (
+    //     <section>
+    //         <h1>Skills</h1>
+    //         <p>Below are the skills I have learned thus far</p>
 
-            {skills.map((skillItems) => (
-                <div>
-                    <h3>{skillItems.skillName} </h3>
+    //         {skills.map((skillItems) => (
+    //             <div>
+    //                 <h3>{skillItems.skillName} </h3>
+    //             </div>
+    //         ))}
+    //     </section >
+    // );
+
+    return (
+        <div className="skills">
+            <div className="skillsHeader">
+                <h2>Skills</h2>
+            </div>
+            <div className="skillsContainer">
+                <div className="skill--scroll">
+                    <Marquee
+                        gradient={false}
+                        speed={80}
+                        pauseOnHover={true}
+                        pauseOnClick={true}
+                        delay={0}
+                        play={true}
+                        direction="left"
+                    >
+                        {skillsData.map((skill, id) => (
+                            <div className="skill--box" key={id}>
+                                {/* <img src={skillsImage(skill)} alt={skill} /> */}
+                                <h3>
+                                    {skill}
+                                </h3>
+                            </div>
+                        ))}
+                    </Marquee>
                 </div>
-            ))}
-        </section >
-    );
+            </div>
+        </div>
+    )
 }
 
 export default Skills;

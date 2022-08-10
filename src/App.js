@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import Header from "./components/Header/Header"
 import AboutMe from "./components/AboutMe/AboutMe";
 import Skills from "./components/Skills/Skills"
-import Tools from "./components/Tools/Tools"
+import Tools from "./components/Skills/Tools"
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Logo from "./components/Logo/Logo"
@@ -24,7 +24,6 @@ function App() {
       <Header />
       <AboutMe />
       {/* <Skills /> */}
-      {/* <Tools /> */}
       <Project />
       <Contact />
     </div>
