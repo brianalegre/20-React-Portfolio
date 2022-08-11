@@ -1,6 +1,6 @@
 import React from 'react';
 // IMPORT REACT-HOOK-FORM LIBRARY
-import { useForm } from "react-hook-form";
+// import { useForm } from "react-hook-form";
 
 
 
@@ -8,43 +8,46 @@ function Contact() {
     return (
         <div>
             <h1 className="text-3xl font-extrabold text-orange-500 text-center">Contact Me</h1>
-            <div className="relative py-3 sm:max-w-xl sm:mx-auto">
-                <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
-                    <div className="max-w-md mx-auto">
+            <div className="relative py-3 max-w-xl mx-auto p-6">
+                <div className="relative px-4 py-10 bg-white shadow-lg rounded-3xl sm:p-6">
+                    <div className="max-w-md mx-auto sm:w-auto sm:m-auto">
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam nec auctor lectus. Nulla mattis tempus tellus, vel
-                            pulvinar risus efficitur at. Sed condimentum nunc vel nisl
-                            luctus, sit amet blandit.
+                            Interested in working together?  Fill out the form below with some info about yourself and I will get back to you as soon as I can.
                         </p>
                         <hr className="mt-3 border-gray-300" />
                         <div className="divide-y divide-gray-200">
-                            <form className="pt-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7 -mb-8">
-                                Name <span className="text-red-600">*</span>
+                            <form className="pt-8 text-base leading-6 space-y-4 text-gray-700">
+                                <p>
+                                    Name <span className="text-red-600">*</span>
+                                </p>
                                 <input
                                     required
                                     className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                     type="text"
-                                    placeholder="Name"
+                                    placeholder="Enter Your Name"
                                 />
-                                Email <span className="text-red-500">*</span>
+                                <p>
+                                    Email <span className="text-red-500">*</span>
+                                </p>
                                 <input
                                     required
                                     className="appearance-none block w-full bg-gray-200 text-gray-700 border rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white"
                                     type="email"
-                                    placeholder="Email"
+                                    placeholder="Enter Your Email Address"
                                 />
-
-                                Message <span className="text-red-500">*</span>
+                                <p>
+                                    Message <span className="text-red-500">*</span>
+                                </p>
                                 <textarea
                                     required
                                     className="resize-y py-3 px-4 border focus:outline-none rounded-md w-full bg-gray-200"
-                                    placeholder="Your message..."
+                                    placeholder="Enter Your Message..."
                                 ></textarea>
 
-                                <div className="flex items-end justify-end">
-
-                                    Send
+                                <div className="flex items-end justify-center">
+                                    <button className='bg-stone-900 text-stone-200 py-2 px-4 rounded font-bold'>
+                                        Send
+                                    </button>
                                 </div>
                             </form>
                         </div>

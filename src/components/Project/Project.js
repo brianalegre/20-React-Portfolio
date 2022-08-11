@@ -70,7 +70,6 @@ function Projects() {
         <section>
              <div className='text-center font-extrabold text-3xl'>
                 <h1 className='text-orange-500'>Projects</h1>
-                <br></br>
             </div>
             <div className="grid gap-4 p-5
                 sm:grid-cols-1
