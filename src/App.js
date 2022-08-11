@@ -7,6 +7,7 @@ import Tools from "./components/Skills/Tools"
 import Project from "./components/Project/Project";
 import Contact from "./components/Contact/Contact";
 import Logo from "./components/Logo/Logo"
+import Resume from "./components/Resume/Resume"
 import Footer from "./components/Footer/Footer"
 
 
@@ -27,6 +28,7 @@ function App() {
       {/* <Skills /> */}
       <Project />
       <Contact />
+      <Resume />
       <Footer />
     </div>
   );
