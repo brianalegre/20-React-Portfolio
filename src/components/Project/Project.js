@@ -68,7 +68,7 @@ const projectMap = project.map((projectItem, i) => (
 function Projects() {
     return (
         <section id="portfolio">
-            <div className='text-center font-extrabold text-3xl'>
+             <div className='text-center font-extrabold text-3xl'>
                 <h1 className='text-orange-500'>Projects</h1>
             </div>
             <div className="grid gap-4 p-5
