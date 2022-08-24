@@ -14,7 +14,7 @@ function Header() {
         if (currentPage === 'About Me') {
             return <AboutMe />;
         }
-        if (currentPage === 'Project') {
+        if (currentPage === 'Portfolio') {
             return <Portfolio />;
         }
         if (currentPage === 'Contact') {
