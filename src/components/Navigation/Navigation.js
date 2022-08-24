@@ -2,7 +2,7 @@
 import React from 'react';
 
 // GET PROPS FROM PARENT COMPONENT
-function Navigation({ currentPage, handlePageChange }) {
+function Navbar({ currentPage, handlePageChange }) {
 
     // NAVBAR ITEMS
     const navbar = [
@@ -22,7 +22,7 @@ function Navigation({ currentPage, handlePageChange }) {
             navName: "Resume",
             navLink: "#resume"
         }
-    ].map(navItems => ({ ...navItems, active: navItems.navName === currentPage }));
+    ].map(navItems => ({ ...navItems, isActive: navItems.navName === currentPage }));
 
     return (
 
@@ -34,15 +34,19 @@ function Navigation({ currentPage, handlePageChange }) {
                     </a>
                 </div>
                 <div className="lg:flex flex-grow items-center" id="example-navbar-warning">
-                    <ul className="flex flex-col lg:flex-row list-none ml-auto">
-                        {navbar.map((navItems, i) => (
-                            <li key={navItems.navLink} className="nav-item">
-                                <a className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75" href={navItems.navLink}>
-                                    {navItems.navName}
-                                </a>
+                    <ul className="flex flex-col lg:flex-row list-none ml-auto ">
+                        {/* MAP OUT NAVBAR */}
+                        {navbar.map(navItem => (
+                            <li
+                                key={navItem.navName}
+                                className={`${navItem.isActive ? "text-orange-500" : "text-gray-700"}` + " flex items-center mr-4"}
+
+                                // ONCLICK HANDLE PAGE CHANGE
+                                onClick={() => handlePageChange(navItem.navName)}
+                            >
+                                {navItem.navName}
                             </li>
                         ))}
-
                     </ul>
                 </div>
             </div>
@@ -51,4 +55,4 @@ function Navigation({ currentPage, handlePageChange }) {
     );
 }
 
-export default Navigation;
+export default Navbar;

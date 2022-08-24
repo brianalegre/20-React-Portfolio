@@ -43,10 +43,10 @@ const project = [
         deployed: "https://brianalegre.github.io/03-JavaScript-Homework/",
         repo: "https://github.com/brianalegre/03-JavaScript-Homework",
     },
-]
+].map(projectItem => ({ ...projectItem, isActive: projectItem.projectName === currentPage }));
 
 const projectMap = project.map((projectItem, i) => (
-    <div key={'project_' +i}className="rounded-3xl shadow-lg bg-white max-w-sm mx-auto">
+    <div name='project' key={'project_' +i}className="rounded-3xl shadow-lg bg-white max-w-sm mx-auto">
         <a href="#!">
             <img className="rounded-t-3xl" src={projectItem.projectImage} alt="" />
         </a>
@@ -65,7 +65,8 @@ const projectMap = project.map((projectItem, i) => (
     </div>
 ))
 
-function Projects() {
+function Projects({ currentPage, handlePageChange }) {
+    
     return (
         <section id="portfolio">
              <div className='text-center font-extrabold text-3xl'>
