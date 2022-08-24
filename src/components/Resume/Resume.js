@@ -1,27 +1,69 @@
-// import React, { useState } from 'react';
-// // import MyResume from './BrianAlegreResume.pdf'
-// // import MyResume from '.././assets/BrianAlegreResume.pdf'
-// import { Document, Page } from 'react-pdf';
-// // https://www.npmjs.com/package/react-pdf
+// IMPORT
+import React from 'react';
 
-// function Resume() {
-//     const [numPages, setNumPages] = useState(null);
-//     const [pageNumber, setPageNumber] = useState(1);
+// SKILL AND TOOLS
+const skillsTools = [
+    {
+        name: "HTML",
+        icon: "TBD"
+    },
+    {
+        name: "CSS",
+        icon: "TBD"
+    },
+    {
+        name: "FIGMA",
+        icon: "TBD"
+    },
+    {
+        name: "Javascript",
+        icon: "TBD"
+    },
+    {
+        name: "React",
+        icon: "TBD"
+    },
+    {
+        name: "NodeJS",
+        icon: "TBD"
+    },
+    {
+        name: "Visual Studio Code",
+        icon: "TBD"
+    },
+    {
+        name: "GitHub",
+        icon: "TBD"
+    },
+    {
+        name: "Slack",
+        icon: "TBD"
+    },
+    {
+        name: "AWS S3",
+        icon: "TBD"
+    },
+    {
+        name: "Heroku",
+        icon: "TBD"
+    },
+    {
+        name: "NPM",
+        icon: "TBD"
+    },
+]
 
-//     function onDocumentLoadSuccess({ numPages }) {
-//         setNumPages(numPages);
-//     }
+function Resume() {
 
 
-//     return (
-//         <div className="p-100 w-max">
-//             <Document file='/BrianAlegreResume.pdf' onLoadSuccess={onDocumentLoadSuccess}>
-//                 <Page pageNumber={pageNumber} />
-//             </Document>
-//             <p>
-//                 Page {pageNumber} of {numPages}
-//             </p>
-//         </div>
-//     )
-// }
-// export default Resume;
+    return (
+        <div>
+            {/* DISPLAY LIST OF SKILLS AND TOOLS */}
+
+            {/* DISPLAY RESUME AND DOWNLOAD */}
+        </div>
+    )
+
+}
+
+export default Resume;

@@ -12,7 +12,6 @@ const skills = [
     'Javascript',
     'React',
     'Node JS',
-
 ]
 
 function Skills() {
