@@ -1,10 +1,10 @@
 // IMPORT
 import React, { useState } from 'react';
-import AboutMe from './AboutMe/AboutMe';
-import Project from './Project/Project';
-import Contact from './Contact/Contact';
-import Resume from './Resume/Resume';
-import Navbar from '../Navbar/Navbar'
+import AboutMe from '../AboutMe/AboutMe';
+import Portfolio from '../Portfolio/Portfolio';
+import Contact from '../Contact/Contact';
+import Resume from '../Resume/Resume';
+import Navigation from '../Navigation/Navigation'
 
 
 function Header() {
@@ -15,7 +15,7 @@ function Header() {
             return <AboutMe />;
         }
         if (currentPage === 'Project') {
-            return <Project />;
+            return <Portfolio />;
         }
         if (currentPage === 'Contact') {
             return <Contact />;
@@ -25,9 +25,9 @@ function Header() {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return (
-        // SEND CURRENT PAGE TO NAVBAR VIA PROPS
+        // SEND CURRENT PAGE TO NAVBAR COMPONENT VIA PROPS
         <header>
-            <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
             {renderPage()}
         </header>
     );

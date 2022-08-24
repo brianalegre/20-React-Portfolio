@@ -12,7 +12,7 @@ function AboutMe() {
     return (
         <div id="aboutMe" className="flex items-center">
             <img className="h-52 mx-auto rounded-full p-5" src={selfie} alt="selfie" />
-            <div className="text-stone-200">
+            <div className="text-black">
                 <h3 className="text-lg"> Web Developer</h3>
                 <h2 className="text-4xl"> Brian Alegre </h2>
                 <br></br>
