@@ -10,13 +10,12 @@ const selfie = '.././assets/logo/selfie.jpg'
 function AboutMe() {
 
     return (
-        <div id="aboutMe" className="flex items-center">
-            <img className="h-52 mx-auto rounded-full p-5" src={selfie} alt="selfie" />
+        <div id="aboutMe" className="flex-none m-auto lg:items-center lg:flex lg:w-3/4">
+            <img className="max-h-96 p-5 m-auto" src={selfie} alt="selfie" />
             <div className="text-black">
-                <h3 className="text-lg"> Web Developer</h3>
-                <h2 className="text-4xl"> Brian Alegre </h2>
+                <h2 className="text-center lg:text-start lg:p-5 text-4xl"> Hi, I'm Brian Alegre </h2>
                 <br></br>
-                <p>
+                <p className='p-5'>
                     {intro}
                 </p>
             </div>
