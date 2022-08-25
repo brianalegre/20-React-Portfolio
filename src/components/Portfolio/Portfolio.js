@@ -96,7 +96,7 @@ function Portfolio() {
     return (
         <section id="portfolio">
             <div className='text-center font-extrabold text-3xl'>
-                <h1 className='text-orange-500'>Projects</h1>
+                <h1 className='text-orange-500 py-10'>Projects</h1>
             </div>
             <div className="grid gap-4 p-5
                 sm:grid-cols-1

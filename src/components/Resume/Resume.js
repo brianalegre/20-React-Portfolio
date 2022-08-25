@@ -67,7 +67,7 @@ function Resume() {
 
         // SKILLS, TOOLS AREA
         <div
-            className="bg-white grid grid-rows-3 mx-8 divide-y mt-10"
+            className="bg-slate-300 grid grid-rows-3 mx-8 divide-y pt-10"
         >
             <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
                 <span

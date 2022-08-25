@@ -5,7 +5,7 @@ import Footer from './components/Footer/Footer';
 
 function App() {
     return (
-        <div>
+        <div className='bg-slate-300'>
             <Header />
             <Footer />
         </div>
