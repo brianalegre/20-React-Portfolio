@@ -71,7 +71,7 @@ function Resume() {
         >
             <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
                 <span
-                    className="font-['Manrope'] font-bold text-gray-800 pb-8 text-2xl"
+                    className="pb-8 text-2xl"
                 >
                     Front-End
                 </span>
@@ -133,9 +133,10 @@ function Resume() {
                 </motion.div>
             </div>
 
-            <div className="flex flex-col place-items-center text-center h-auto px-5">
+            <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+
                 <span
-                    className="font-['Manrope'] font-bold text-gray-800 text-2xl pt-5 pb-10"
+                    className="pb-8 text-2xl"
                 >
                     Back-End
                 </span>
@@ -179,9 +180,10 @@ function Resume() {
                 </motion.div>
             </div>
 
-            <div className="flex flex-col place-items-center text-center h-auto px-5">
+            <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+
                 <span
-                    className="font-['Manrope'] font-bold text-gray-800 text-2xl pt-5 pb-10"
+                    className="pb-8 text-2xl"
                 >
                     Dev Tools
                 </span>
