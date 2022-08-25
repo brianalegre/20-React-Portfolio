@@ -10,7 +10,7 @@ const selfie = '.././assets/logo/selfie.jpg'
 function AboutMe() {
 
     return (
-        <div id="aboutMe" className="flex-none m-auto lg:items-center lg:flex lg:w-3/4">
+        <div id="aboutMe" className="flex-none m-auto lg:items-center lg:flex lg:w-3/4 lg:max-h-screen">
             <img className="max-h-96 p-5 m-auto" src={selfie} alt="selfie" />
             <div className="text-black">
                 <h2 className="text-center lg:text-start lg:p-5 text-4xl"> Hi, I'm Brian Alegre </h2>
