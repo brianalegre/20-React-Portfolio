@@ -1,5 +1,6 @@
 // IMPORT
 import React from 'react';
+import { motion } from "framer-motion";
 
 function Portfolio() {
 
@@ -47,9 +48,33 @@ function Portfolio() {
             repo: "https://github.com/brianalegre/03-JavaScript-Homework",
         },
     ]
+
+    const projectsVariant = {
+        hidden: {
+            opacity: 0,
+            x: -100,
+        },
+        show: {
+        x: 0,
+        opacity: 1,
+        transition: {
+            type: "spring",
+            duration: 1,
+            bounce: 0.3,
+            damping: 15,
+            },
+        },
+    };
     
     const projectMap = project.map((projectItem, i) => (
-        <div name='project' key={'project_' +i}className="rounded-3xl shadow-lg bg-white max-w-sm mx-auto">
+
+        <motion.div 
+        name='project' key={'project_' +i} 
+        className="rounded-3xl shadow-lg bg-white max-w-sm mx-auto"
+        initial={projectsVariant.hidden}
+        whileInView={projectsVariant.show}
+        viewport={{once:true}}
+        >
             <a href="#!">
                 <img className="rounded-t-3xl" src={projectItem.projectImage} alt="" />
             </a>
@@ -65,7 +90,7 @@ function Portfolio() {
                         className="fa fa-share-square-o"> Live </i></a>
                 </div>
             </div>
-        </div>
+        </motion.div>
     ))
 
     return (
