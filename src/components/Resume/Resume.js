@@ -61,19 +61,12 @@ function Resume() {
     };
 
     return (
-
-        // RESUME AREA
-
-
-        // SKILLS, TOOLS AREA
-        <div
-            className="bg-slate-300 grid grid-rows-3 mx-8 divide-y pt-10"
-        >
-            <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+        <>
+            <div className="flex flex-col place-items-center text-center h-auto py-10 px-5 border-b">
                 <span
                     className="pb-8 text-2xl"
                 >
-                    Front-End
+                    Resume and Proficiencies
                 </span>
                 <motion.div
                     className="grid grid-cols-2 gap-x-10 gap-y-5"
@@ -82,140 +75,166 @@ function Resume() {
                     whileInView="show"
                     viewport={{ once: true }}
                 >
-                    <motion.img
-                        src={HtmlLogo}
-                        alt="HTML-Logo"
-                        className="max-h-20"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={CSSLogo}
-                        alt="CSS-Logo"
-                        className="max-h-20"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={JavascriptLogo}
-                        alt="Javascript-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={BootstrapLogo}
-                        alt="Bootstrap-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={HandlebarsLogo}
-                        alt="Handlebars-Logo"
-                        className="w-20 h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={TailwindLogo}
-                        alt="Tailwind-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={ReactLogo}
-                        alt="React-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={FramerLogo}
-                        alt="Framer-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
+                    <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                        <a href="https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true" target="_blank" rel='noreferrer'>Google Doc</a>
+                    </button>
+                    <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                        <a href="https://drive.google.com/uc?export=download&id=1nQ5YZ1gnaNJSpVenNF9R0r7OIcZBqb4e" download>Download</a>
+                    </button>
                 </motion.div>
             </div>
+            <div
+                className="bg-slate-300 grid grid-rows-3 mx-8 divide-y pt-10"
+            >
 
-            <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+                <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+                    <span
+                        className="pb-8 text-2xl"
+                    >
+                        Front-End
+                    </span>
+                    <motion.div
+                        className="grid grid-cols-2 gap-x-10 gap-y-5"
+                        variants={stackVariants}
+                        initial="hidden"
+                        whileInView="show"
+                        viewport={{ once: true }}
+                    >
+                        <motion.img
+                            src={HtmlLogo}
+                            alt="HTML-Logo"
+                            className="max-h-20"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={CSSLogo}
+                            alt="CSS-Logo"
+                            className="max-h-20"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={JavascriptLogo}
+                            alt="Javascript-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={BootstrapLogo}
+                            alt="Bootstrap-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={HandlebarsLogo}
+                            alt="Handlebars-Logo"
+                            className="w-20 h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={TailwindLogo}
+                            alt="Tailwind-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={ReactLogo}
+                            alt="React-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={FramerLogo}
+                            alt="Framer-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                    </motion.div>
+                </div>
 
-                <span
-                    className="pb-8 text-2xl"
-                >
-                    Back-End
-                </span>
-                <motion.div
-                    className="grid grid-cols-2 gap-x-8 gap-y-5"
-                    variants={stackVariants}
-                    initial="hidden2"
-                    whileInView="show2"
-                    viewport={{ once: true }}
-                >
-                    <motion.img
-                        src={ExpressLogo}
-                        alt="Express-Logo"
-                        className="h-12 w-24"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={NodeLogo}
-                        alt="NodeJS-Logo"
-                        className="max-h-16 max-w-24"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={MongoDbLogo}
-                        alt="MongoDB-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={MySqlLogo}
-                        alt="MySQL-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={GraphqlLogo}
-                        alt="GraphQL-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                </motion.div>
+                <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+
+                    <span
+                        className="pb-8 text-2xl"
+                    >
+                        Back-End
+                    </span>
+                    <motion.div
+                        className="grid grid-cols-2 gap-x-8 gap-y-5"
+                        variants={stackVariants}
+                        initial="hidden2"
+                        whileInView="show2"
+                        viewport={{ once: true }}
+                    >
+                        <motion.img
+                            src={ExpressLogo}
+                            alt="Express-Logo"
+                            className="h-12 w-24"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={NodeLogo}
+                            alt="NodeJS-Logo"
+                            className="max-h-16 max-w-24"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={MongoDbLogo}
+                            alt="MongoDB-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={MySqlLogo}
+                            alt="MySQL-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={GraphqlLogo}
+                            alt="GraphQL-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                    </motion.div>
+                </div>
+
+                <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
+
+                    <span
+                        className="pb-8 text-2xl"
+                    >
+                        Dev Tools
+                    </span>
+                    <motion.div
+                        className="grid grid-cols-2 gap-x-8 gap-y-12"
+                        variants={stackVariants}
+                        initial="hidden"
+                        whileInView="show3"
+                        viewport={{ once: true }}
+                    >
+                        <motion.img
+                            src={GithubLogo}
+                            alt="Github-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={SlackLogo}
+                            alt="Slack-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+                        <motion.img
+                            src={InsomniaLogo}
+                            alt="Insomnia-Logo"
+                            className="max-h-16"
+                            whileHover={{ scale: 1.2 }}
+                        />
+
+                    </motion.div>
+                </div>
             </div>
-
-            <div className="flex flex-col place-items-center text-center h-auto py-5 px-5">
-
-                <span
-                    className="pb-8 text-2xl"
-                >
-                    Dev Tools
-                </span>
-                <motion.div
-                    className="grid grid-cols-2 gap-x-8 gap-y-12"
-                    variants={stackVariants}
-                    initial="hidden"
-                    whileInView="show3"
-                    viewport={{ once: true }}
-                >
-                    <motion.img
-                        src={GithubLogo}
-                        alt="Github-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={SlackLogo}
-                        alt="Slack-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-                    <motion.img
-                        src={InsomniaLogo}
-                        alt="Insomnia-Logo"
-                        className="max-h-16"
-                        whileHover={{ scale: 1.2 }}
-                    />
-
-                </motion.div>
-            </div>
-        </div>
+        </>
     )
 
 }
