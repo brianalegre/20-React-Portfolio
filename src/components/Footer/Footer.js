@@ -28,7 +28,7 @@ const footer = [
 ]
 
 const footerMap = footer.map((footerItems, i) => (
-    <li key={'footer_' + i} className='px-5 py-5 text-white text-3xl'>
+    <li key={'footer_' + i} className='px-5 py-5 text-slate-300 hover:text-white text-3xl'>
         <a href={footerItems.footerLink} target="_blank" rel='noreferrer'>
             <i className={footerItems.footerIcon}></i>
         </a>
