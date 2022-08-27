@@ -1,7 +1,6 @@
 // IMPORT
 import React from 'react';
 import { motion } from "framer-motion";
-import { VscGithubAlt } from 'react-icons/vsc';
 
 
 function Portfolio() {
