@@ -4,8 +4,6 @@
 ## Table of Contents 📑
 - [Description](#description)
 - [Application Preview](#application-preview)
-- [Installation](#installation)
-- [Usage](#usage)
 - [Links](#links)
 - [Criteria](#criteria)
 - [Technologies](#technologies)
@@ -13,22 +11,19 @@
 - [License](#license)
 
 ## Description
-
+Creating portfolio using my new React skills
 
 ## Application Preview
-<p align="left">
-    <img alt="" src="">
+<p align="center">
+    <img alt="Site Preview" src="./public/assets/images/SitePreview.png">
 </p>
-
-
-## Installation
-
-## Usage
 
 
 ## Links
 -   Github Repository:
     - https://github.com/brianalegre/20-React-Portfolio
+-   Github Deployed:
+    - TBD
 
 ## Criteria
 - Use `gh-pages` branch to host the deployed application
@@ -54,11 +49,14 @@
     - Header
     - Navbar
     - Projects
-    - Footer 
-
-
+    - Footer
 
 ## Technologies
+- React 
+- Framer Motion
+- React Icons
+- Tailwind
+- Flowbite
 
 ## Questions
 Questions? Concerns?  Contact Me Below:
