@@ -1,6 +1,8 @@
 // IMPORT
 import React from 'react';
 import { motion } from "framer-motion";
+import { VscGithubAlt } from 'react-icons/vsc';
+
 
 function Portfolio() {
 
@@ -80,15 +82,24 @@ function Portfolio() {
             </a>
             <div className="p-6">
                 <h5 className="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
-                <p className="text-gray-700 text-base mb-4">
+                <p className="text-gray-700 text-base mb-4 h-20">
                     {projectItem.projectDescription}
                 </p>
-                <div className='flex justify-around'>
-                    <a href={projectItem.repo} target="_blank" rel='noreferrer'><i
-                        className="fa fa-github hvr-icon"> GitHub </i></a>
+            <div className='flex justify-around pt-5'>
+                <button type="button" className="text-white w-28 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                    <a href={projectItem.repo} target="_blank" rel='noreferrer'>GitHub</a>
+                </button>
+                <button type="button" className="text-white w-28 bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                    <a href={projectItem.deployed} target="_blank" rel='noreferrer'>Deployed</a>
+                </button>
+            </div>
+
+                {/* <div className='flex justify-around'>
+                    <a href={projectItem.repo} target="_blank" rel='noreferrer'>
+                        <VscGithubAlt /> GitHub </a>
                     <a href={projectItem.deployed} target="_blank" rel='noreferrer'><i
                         className="fa fa-share-square-o"> Live </i></a>
-                </div>
+                </div> */}
             </div>
         </motion.div>
     ))
