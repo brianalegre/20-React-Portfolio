@@ -23,7 +23,7 @@ Creating portfolio using my new React skills
 -   Github Repository:
     - https://github.com/brianalegre/20-React-Portfolio
 -   Github Deployed:
-    - TBD
+    - https://brianalegre.github.io/20-React-Portfolio/
 
 ## Criteria
 - Use `gh-pages` branch to host the deployed application
