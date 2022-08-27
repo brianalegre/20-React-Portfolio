@@ -2,48 +2,56 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
+// IMPORT PICTURES
+import oldEgg from "../images/projects/oldEgg.png";
+import movieLibrary from "../images/projects/movieLibrary.png";
+import techBlog from "../images/projects/techBlog.png";
+import weatherDashboard from "../images/projects/weatherDashboard.png";
+import pokemonQuiz from "../images/projects/pokemonQuiz.png";
+import passwordGenerator from "../images/projects/passwordGenerator.png";
+
 
 function Portfolio() {
 
     const project = [
         {
             projectName: "OldEgg",
-            projectImage: ".././assets/projectImages/OldEgg.png",
+            projectImage: oldEgg,
             projectDescription: "OldEgg is a full-stack e-commerce application for buying electronics",
             deployed: "https://oldegg.herokuapp.com/",
             repo: "https://github.com/brianalegre/OldEgg",
         },
         {
             projectName: "The Movie Library",
-            projectImage: ".././assets/projectImages/movieLibrary.png",
+            projectImage: movieLibrary,
             projectDescription: "The Movie Library is front-end application where users can search and find information on the latest and/or popular movies",
             deployed: "https://brianalegre.github.io/Movie-Library/",
             repo: "https://github.com/brianalegre/Movie-Library",
         },
         {
             projectName: "Tech Blog",
-            projectImage: ".././assets/projectImages/techBlog.png",
+            projectImage: techBlog,
             projectDescription: "Tech Blog is a full-stack application, where uesr can post their thoughts, and comment on other users' posts",
             deployed: "https://alegre-techblog.herokuapp.com/",
             repo: "https://github.com/brianalegre/14-MVC-Techblog",
         },
         {
             projectName: "Weather Dashboard",
-            projectImage: ".././assets/projectImages/weatherDashboard.png",
+            projectImage: weatherDashboard,
             projectDescription: "Weather Dashboard is a front-end application where users can search any city's weather",
             deployed: "https://brianalegre.github.io/06-Server-Side-APIs-Homework/",
             repo: "https://github.com/brianalegre/06-Server-Side-APIs-Homework",
         },
         {
             projectName: "Pokémon Quiz",
-            projectImage: ".././assets/projectImages/pokemonQuiz.png",
+            projectImage: pokemonQuiz,
             projectDescription: "Pokémon Quiz is a front-end application where users guess the Pokémon's name, and earn points while doing so",
             deployed: "https://brianalegre.github.io/04-Web-APIs-Homework/",
             repo: "https://github.com/brianalegre/04-Web-APIs-Homework",
         },
         {
             projectName: "Password Generator",
-            projectImage: ".././assets/projectImages/passwordGenerator.png",
+            projectImage: passwordGenerator,
             projectDescription: "Password Generator is a front-end application where users can generate a random password based on the criteria they set",
             deployed: "https://brianalegre.github.io/03-JavaScript-Homework/",
             repo: "https://github.com/brianalegre/03-JavaScript-Homework",

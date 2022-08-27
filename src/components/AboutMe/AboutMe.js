@@ -1,13 +1,14 @@
 import React from 'react';
 import { motion } from "framer-motion";
 
+import selfie from '../images/aboutMe/selfie.jpg';
+// const selfie = '.././assets/logo/selfie.jpg'
 
 const intro = `I love the fact that I can break things with Web Development, figuring out how it works, and
 also how to improve it, all while learning.
 I also love how Web Development is a great creative outlet for me. If its something I can
 imagine, I can bring it to life, and that iteslf is beautiful`
 
-const selfie = '.././assets/logo/selfie.jpg'
 
 const projectsVariant = {
     hidden: {
