@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.5de45cb5.css",
-    "main.js": "/20-React-Portfolio/static/js/main.f1ac02c1.js",
+    "main.js": "/20-React-Portfolio/static/js/main.93e25017.js",
     "static/media/selfie.jpg": "/20-React-Portfolio/static/media/selfie.dc9b32476af81c7896b5.jpg",
     "static/media/movieLibrary.png": "/20-React-Portfolio/static/media/movieLibrary.d1a5ccbcb387a69629dc.png",
     "static/media/pokemonQuiz.png": "/20-React-Portfolio/static/media/pokemonQuiz.bd81558f8264baf4eb2b.png",
     "static/media/weatherDashboard.png": "/20-React-Portfolio/static/media/weatherDashboard.8420cb6880c9326d26c7.png",
     "static/media/oldEgg.png": "/20-React-Portfolio/static/media/oldEgg.727f81314f6a25736425.png",
+    "static/media/nofreetoes.png": "/20-React-Portfolio/static/media/nofreetoes.b339696b418ccb1396e6.png",
     "static/media/techBlog.png": "/20-React-Portfolio/static/media/techBlog.0c8d9f41437bcdb56595.png",
-    "static/media/passwordGenerator.png": "/20-React-Portfolio/static/media/passwordGenerator.2746f86d709ee16a1bba.png",
     "static/media/tailwind.png": "/20-React-Portfolio/static/media/tailwind.9187d687b1f8eca87146.png",
     "static/media/nodejs.svg": "/20-React-Portfolio/static/media/nodejs.5a3a9ca294db0539884810b6e6eafedd.svg",
     "static/media/express.svg": "/20-React-Portfolio/static/media/express.7e85c5130978e3593e65a44112bc7390.svg",
@@ -27,10 +27,10 @@
     "index.html": "/20-React-Portfolio/index.html",
     "static/media/framer.svg": "/20-React-Portfolio/static/media/framer.2287efa09a38b7812787f92a5fcd95b6.svg",
     "main.5de45cb5.css.map": "/20-React-Portfolio/static/css/main.5de45cb5.css.map",
-    "main.f1ac02c1.js.map": "/20-React-Portfolio/static/js/main.f1ac02c1.js.map"
+    "main.93e25017.js.map": "/20-React-Portfolio/static/js/main.93e25017.js.map"
   },
   "entrypoints": [
     "static/css/main.5de45cb5.css",
-    "static/js/main.f1ac02c1.js"
+    "static/js/main.93e25017.js"
   ]
 }
