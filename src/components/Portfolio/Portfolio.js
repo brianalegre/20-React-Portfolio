@@ -8,12 +8,19 @@ import movieLibrary from "../images/projects/movieLibrary.png";
 import techBlog from "../images/projects/techBlog.png";
 import weatherDashboard from "../images/projects/weatherDashboard.png";
 import pokemonQuiz from "../images/projects/pokemonQuiz.png";
-import passwordGenerator from "../images/projects/passwordGenerator.png";
+import nofreetoes from "../images/projects/nofreetoes.png";
 
 
 function Portfolio() {
 
     const project = [
+        {
+            projectName: "No Free Toes",
+            projectImage: nofreetoes,
+            projectDescription: "A full stack application using the MERN stack. It is a booking platform for service-based businesses like, 'Hair Cuts, Eye Lashes, etc...",
+            deployed: "https://nofreetoes.herokuapp.com/",
+            repo: "https://github.com/brianalegre/No-Free-Toes",
+        },
         {
             projectName: "OldEgg",
             projectImage: oldEgg,
@@ -49,13 +56,7 @@ function Portfolio() {
             deployed: "https://brianalegre.github.io/04-Web-APIs-Homework/",
             repo: "https://github.com/brianalegre/04-Web-APIs-Homework",
         },
-        {
-            projectName: "Password Generator",
-            projectImage: passwordGenerator,
-            projectDescription: "Password Generator is a front-end application where users can generate a random password based on the criteria they set",
-            deployed: "https://brianalegre.github.io/03-JavaScript-Homework/",
-            repo: "https://github.com/brianalegre/03-JavaScript-Homework",
-        },
+
     ]
 
     const projectsVariant = {
