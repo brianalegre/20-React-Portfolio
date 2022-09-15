@@ -35,7 +35,7 @@ function AboutMe() {
             whileInView={projectsVariant.show}
             viewport={{ once: true }}
         >
-            <img className="max-h-96 m-auto rounded-full pt-10" src={selfie} alt="selfie" />
+            <img className="max-h-96 m-auto rounded-lg pt-10" src={selfie} alt="selfie" />
             <div className="text-black">
                 <h2 className="text-center pt-5 lg:text-start lg:p-5 text-4xl"> Hi, I'm Brian Alegre </h2>
                 <br></br>
