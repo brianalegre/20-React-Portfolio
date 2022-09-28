@@ -69,18 +69,22 @@ function Resume() {
                     Resume and Proficiencies
                 </span>
                 <motion.div
-                    className="grid grid-cols-2 gap-x-10 gap-y-5"
+                    className="gap-x-10 gap-y-5"
                     variants={stackVariants}
                     initial="hidden"
                     whileInView="show"
                     viewport={{ once: true }}
                 >
-                    <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                    {/* <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         <a href="https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true" target="_blank" rel='noreferrer'>Google Doc</a>
                     </button>
                     <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
                         <a href="https://drive.google.com/uc?export=download&id=1nQ5YZ1gnaNJSpVenNF9R0r7OIcZBqb4e" download>Download</a>
+                    </button> */}
+                    <button type="button" className="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700">
+                        <a href="https://brianalegre.github.io/Resume/" target="_blank" rel='noreferrer'>View Resume</a>
                     </button>
+
                 </motion.div>
             </div>
             <div
