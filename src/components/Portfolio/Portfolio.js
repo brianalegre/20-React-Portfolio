@@ -85,9 +85,9 @@ function Portfolio() {
         whileInView={projectsVariant.show}
         viewport={{once:true}}
         >
-            <a href="#!">
+            <div>
                 <img className="rounded-t-3xl" src={projectItem.projectImage} alt="" />
-            </a>
+            </div>
             <div className="p-6">
                 <h5 className="text-gray-900 text-xl font-medium mb-2">{projectItem.projectName}</h5>
                 <p className="text-gray-700 text-base mb-4 h-20">

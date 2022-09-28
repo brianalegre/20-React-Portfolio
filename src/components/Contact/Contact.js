@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import { motion } from "framer-motion";
 import { validateEmail } from '../../utils/helpers';
+import emailjs from "emailjs-com";
+
 
 
 const stackVariants = {
@@ -34,12 +36,34 @@ function Contact() {
 
     const [errorMessage, setErrorMessage] = useState('');
     const { name, email, message } = formState;
+    const [msgSent, setMsgSent] = useState(false);
 
     const handleSubmit = (e) => {
         e.preventDefault();
         if (!errorMessage) {
             console.log('Submit Form', formState);
         }
+    };
+
+    const emailHandler = (e) => {
+        e.preventDefault();
+
+        emailjs
+            .sendForm("yahoo", "template_35ysdcj", e.target, "I81ph1otugZH_WrbN")
+            .then(
+                (result) => {
+                    if (result.text === "OK") {
+                        setMsgSent(true);
+                    }
+                },
+                (error) => {
+                    if (error) {
+                        console.log("Something went wrong. Please try again!");
+                    }
+                }
+            );
+
+        e.target.reset();
     };
 
     const handleChange = (e) => {
@@ -83,7 +107,7 @@ function Contact() {
                         <div className="divide-y divide-gray-200">
                             <form
                                 className="pt-8 text-base leading-6 space-y-4 text-gray-700"
-                                onSubmit={handleSubmit}
+                                onSubmit={emailHandler}
                             >
                                 <p>
                                     Name <span className="text-red-600">*</span>
