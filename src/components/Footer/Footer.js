@@ -20,7 +20,8 @@ const footer = [
     },
     {
         footerName: "Resume",
-        footerLink: "https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true",
+        // footerLink: "https://docs.google.com/document/d/1ib_oK6OZG6353VS7CuBLe0iwJxh_PSiM/edit?usp=sharing&ouid=100305447258009104354&rtpof=true&sd=true",
+        footerLink: "https://brianalegre.github.io/Resume/",
         footerIcon: "fa fa-file-text"
 
     },
