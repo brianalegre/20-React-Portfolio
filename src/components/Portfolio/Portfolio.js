@@ -18,7 +18,7 @@ function Portfolio() {
             projectName: "No Free Toes",
             projectImage: nofreetoes,
             projectDescription: "A full stack application using the MERN stack. It is a booking platform for service-based businesses like, 'Hair Cuts, Eye Lashes, etc...",
-            deployed: "https://nofreetoes.herokuapp.com/",
+            deployed: "https://nofreetoes-v1-ba30a70603ff.herokuapp.com/",
             repo: "https://github.com/brianalegre/No-Free-Toes",
         },
         {
