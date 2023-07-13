@@ -18,14 +18,14 @@ function Portfolio() {
             projectName: "No Free Toes",
             projectImage: nofreetoes,
             projectDescription: "A full stack application using the MERN stack. It is a booking platform for service-based businesses like, 'Hair Cuts, Eye Lashes, etc...",
-            deployed: "https://nofreetoes-v1-ba30a70603ff.herokuapp.com/",
+            deployed: "https://no-free-toes-v2-cf42c7c1cbf7.herokuapp.com/",
             repo: "https://github.com/brianalegre/No-Free-Toes",
         },
         {
             projectName: "OldEgg",
             projectImage: oldEgg,
             projectDescription: "OldEgg is a full-stack e-commerce application for buying electronics",
-            deployed: "https://oldegg.herokuapp.com/",
+            deployed: "https://oldegg-v2-5432d4798f08.herokuapp.com/",
             repo: "https://github.com/brianalegre/OldEgg",
         },
         {
