@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/20-React-Portfolio/static/css/main.156cd01e.css",
-    "main.js": "/20-React-Portfolio/static/js/main.86513b5a.js",
+    "main.js": "/20-React-Portfolio/static/js/main.cfd587e5.js",
     "static/media/selfie.jpg": "/20-React-Portfolio/static/media/selfie.dc9b32476af81c7896b5.jpg",
     "static/media/movieLibrary.png": "/20-React-Portfolio/static/media/movieLibrary.d1a5ccbcb387a69629dc.png",
     "static/media/pokemonQuiz.png": "/20-React-Portfolio/static/media/pokemonQuiz.bd81558f8264baf4eb2b.png",
@@ -27,10 +27,10 @@
     "index.html": "/20-React-Portfolio/index.html",
     "static/media/framer.svg": "/20-React-Portfolio/static/media/framer.2287efa09a38b7812787f92a5fcd95b6.svg",
     "main.156cd01e.css.map": "/20-React-Portfolio/static/css/main.156cd01e.css.map",
-    "main.86513b5a.js.map": "/20-React-Portfolio/static/js/main.86513b5a.js.map"
+    "main.cfd587e5.js.map": "/20-React-Portfolio/static/js/main.cfd587e5.js.map"
   },
   "entrypoints": [
     "static/css/main.156cd01e.css",
-    "static/js/main.86513b5a.js"
+    "static/js/main.cfd587e5.js"
   ]
 }
