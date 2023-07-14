@@ -39,7 +39,7 @@ function Portfolio() {
             projectName: "Tech Blog",
             projectImage: techBlog,
             projectDescription: "Tech Blog is a full-stack application, where uesr can post their thoughts, and comment on other users' posts",
-            deployed: "https://alegre-techblog.herokuapp.com/",
+            deployed: "https://alegre-techblog-v1-3aa2ffff496c.herokuapp.com/",
             repo: "https://github.com/brianalegre/14-MVC-Techblog",
         },
         {
